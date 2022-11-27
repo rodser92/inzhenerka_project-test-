@@ -11,3 +11,4 @@ with open('account.json', 'r', encoding='utf-8') as file:
 print('Имя пользователя:' + '\t' + data['user_name'] + '\n'
       'Пароль:' + '\t' + data['password'])
 
+print('Теперь грузим все на гитхаб')
